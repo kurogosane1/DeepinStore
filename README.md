@@ -1,4 +1,1 @@
 # DeepinStore
-# DeepinStore
-# DeepinStore
-# DeepinStore
