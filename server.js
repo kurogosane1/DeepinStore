@@ -1,5 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const path = require('path');
 
 const app = express();
 const api = require('./Routes/Router');
@@ -12,6 +13,13 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 
 app.use('', api);
+
+if (process.env.NODE_ENV === 'production') {
+	app.use(express.static('app/build'));
+	app.get('*', (req, res) => {
+		res.sendFile(path.resolve(__dirname, 'app','build','index.html'));
+	});
+}
 
 db.sync()
 	.then(result => {
