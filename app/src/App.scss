@@ -1,0 +1,149 @@
+html,
+body {
+	max-height: 100%;
+	height: 100vh;
+	position: relative;
+}
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+	display: block;
+	position: sticky;
+}
+
+.options-selected {
+	list-style: none;
+	line-height: 2em;
+	margin: auto 2em;
+}
+.optselect-container {
+	margin: 2em auto;
+}
+.current-option {
+	padding: 20px;
+	// background: blue;
+	border: 1px grey solid;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.Processor-heading {
+	margin: 10px;
+	text-align: center;
+}
+.active {
+	border: 2px blue double;
+}
+.current-option:hover {
+	cursor: pointer;
+	border: 3px rgb(43, 42, 42) solid;
+	label:hover {
+		cursor: pointer;
+	}
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+}
+.image {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 7em;
+}
+
+.Deepin-Pro {
+	background: black;
+	height: 100vh;
+}
+
+#DeepinPro {
+	/* border-bottom: 2px solid; */
+	margin-bottom: 10px;
+	text-align: center;
+}
+.nav-link:hover {
+	cursor: pointer;
+}
+#power,
+#performance,
+#pro {
+	font-size: 60px;
+	padding: 5px;
+	text-align: center;
+}
+.SecNavbarPro {
+	border-bottom: 2px black solid;
+	border-width: 0.5px;
+	transition-timing-function: ease-out;
+	transition: 0.5s;
+}
+
+.fixed-top {
+	transition-timing-function: ease-out;
+	transition: 0.5s;
+}
+
+.Performance {
+	height: 100%;
+	text-align: center;
+}
+
+.OS {
+	align-items: center;
+}
+.OS2 {
+	height: 100vh;
+}
+// .image-desk {
+// 	max-width: 100%;
+// 	max-height: 100%;
+// }
+.OS h1,
+p,
+h2 {
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+.active {
+}
+.configuration {
+	margin-top: 2rem;
+}
+.choices {
+	list-style: none;
+
+	li {
+		line-height: 3em;
+	}
+}
+.right-side {
+	border-left: solid 1px grey;
+}
+.selection {
+	.btn {
+		margin: 0px 0px 0px 2px;
+		padding: 4px 35%;
+	}
+	span {
+		margin-left: 10px;
+	}
+}
+.information {
+	list-style: none;
+}
+
+.box-cart {
+	margin-top: 10;
+}
+
+.logo {
+	margin: auto;
+	justify-items: center;
+	justify-content: center;
+	height: 10vh;
+	width: 10vw;
+}
